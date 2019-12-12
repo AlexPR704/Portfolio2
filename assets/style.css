@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     }
 
-
 .container {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -44,4 +43,31 @@ body {
     background-color: none;
     padding-top: 40px;
     
+}
+
+/* .container3 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: none;
+    padding-top: 40px;
+    float: left;
+    margin: 60px 60px 60px 85px;
+    
+} */
+
+.wrapper {
+   float: left;
+}
+
+.card {
+    margin: 5px 10px 30px 10px;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    
+}
+.card-body {
+    background-color: #777777;
+    color:  white;    
 }
