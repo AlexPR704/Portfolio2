@@ -1,0 +1,47 @@
+body {
+    background-image: url('images/background.jpg');
+    position: relative;
+    min-height: 100vh;
+    }
+
+
+.container {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: none;
+    padding-top: 40px;
+    
+}
+
+#alex {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border: 8px solid white;
+    background-color: grey;
+    height: 2.5rem;            /* Footer height */
+    padding-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .container2 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: none;
+    padding-top: 40px;
+    
+}
