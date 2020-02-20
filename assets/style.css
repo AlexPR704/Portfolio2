@@ -1,76 +1,77 @@
-body {
-    background-image: url('images/background.jpg');
-    position: relative;
-    min-height: 100vh;
-    }
-
-.container {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    background-color: none;
-    padding-top: 40px;
-    
-}
-.navbar {
-    background-color: black;
-}
-#alex {
-    border-radius: 50%;
-    width: auto;
-    height: auto;
+body{ 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
+.has-same-height .card {
+    height: 320px;
+    overflow: hidden;
   }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    border: 2px solid aqua;
-    background-color: black;
-    height: 2.5rem;            /* Footer height */
-    padding-bottom: 2.5rem;
+  
+  .card-content h3 {
     text-align: center;
   }
-
-  .container2 {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  .table-profile td,
+  th {
+    border: none !important;
+  }
+  
+  .table-profile td:first-of-type {
+    font-weight: bold;
+  }
+  
+  .skills-content .media {
+    margin: 0 !important;
+    padding: 4px !important;
+    border: 0 !important;
+  }
+  
+  /* .skills-content .progress {
+    height: 4px !important;
+  } */
+  .button is-link {
+    justify-content: space-between;
+  }
+  .custom-tags {
+    text-align: center !important;
+    display: block;
+  }
+  
+  .portfolio-container .card {
+    margin-bottom: 2em;
+  }
+  
+  .section-heading {
     text-align: center;
-    background-color: none;
-    padding-top: 40px;
-    
-}
+    margin-top: 1em;
+    margin-bottom: 6em;
+  }
 
-.wrapper {
-   float: left;
-}
-
-.card {
+  /* .card {
     margin: 5px 10px 30px 10px;
     position: relative;
     display: inline-block;
     height: auto;
     
-}
-.card-body {
+} */
+/* .card-body {
     background-color: black;
     color:  white;    
     height: 274px;
-}
+} */
 
 .card img {
-    height: 200px;
+    height: 180px;
 }
-
-.axe {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 50px;
+#alex {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.hero-body {
+  background-color: black;
+}
+.navbar-menu, .navbar-brand {
+  background-color: black;
+  color: white;
 }
