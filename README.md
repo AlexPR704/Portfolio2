@@ -15,7 +15,7 @@ Special credit goes to the team of instructors. Without their help; this portfol
 ## Submission on BCS
 
 * https://alexpr704.github.io/Portfolio2/ Link to deployment.
-* https://github.com/AlexPR704/dynamic Check out the code.
+* https://github.com/AlexPR704/Portfolio2 Check out the code.
 
 # License
 MIT License
