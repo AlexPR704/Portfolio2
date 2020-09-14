@@ -1,429 +1,555 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Alexander Garcia Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
     <!-- Bulma Version 0.8.x-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
     <script async type="text/javascript" src="assets/js/bulma.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Navigation bar -->
     <nav class="navbar is-link is-fixed-top">
-        <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="navbar-brand">
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
 
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="navbar-end">
-                <a class="navbar-item" href="#about">
-                    <span class="icon">
-                        <i class="fas fa-info"></i>
-                    </span>
-                    <span>About</span>
-                </a>
-                <a class="navbar-item" href="#services">
-                    <span class="icon">
-                        <i class="fas fa-bars"></i>
-                    </span>
-                    <span>Services</span>
-                </a>
-                <a class="navbar-item" href="#resume">
-                    <span class="icon">
-                        <i class="fas fa-file-alt"></i>
-                    </span>
-                    <span>Resume</span>
-                </a>
-                <a class="navbar-item" href="#portfolio">
-                    <span class="icon">
-                        <i class="fas fa-th-list"></i>
-                    </span>
-                    <span>Portfolio</span>
-                </a>
-                <a class="navbar-item" href="#contact">
-                    <span class="icon">
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span>Contact</span>
-                </a>
-            </div>
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about">
+            <span class="icon">
+              <i class="fas fa-info"></i>
+            </span>
+            <span>About</span>
+          </a>
+          <a class="navbar-item" href="#services">
+            <span class="icon">
+              <i class="fas fa-bars"></i>
+            </span>
+            <span>Services</span>
+          </a>
+          <a class="navbar-item" href="#resume">
+            <span class="icon">
+              <i class="fas fa-file-alt"></i>
+            </span>
+            <span>Resume</span>
+          </a>
+          <a class="navbar-item" href="#portfolio">
+            <span class="icon">
+              <i class="fas fa-th-list"></i>
+            </span>
+            <span>Portfolio</span>
+          </a>
+          <a class="navbar-item" href="#contact">
+            <span class="icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span>Contact</span>
+          </a>
         </div>
+      </div>
     </nav>
 
     <!-- Header -->
     <section class="hero is-link is-fullheight is-fullheight-with-navbar">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title is-1" style="text-align: center;">
-                    ALEXANDER GARCIA
-                </h1>
-                <h2 class="subtitle is-3" style="background-color: white; color: black; text-align: center;">
-                    Full Stack Web Developer
-                </h2>
-            </div>
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1" style="text-align: center">
+            ALEXANDER GARCIA
+          </h1>
+          <h2
+            class="subtitle is-3"
+            style="background-color: white; color: black; text-align: center"
+          >
+            Full Stack Web Developer
+          </h2>
         </div>
+      </div>
     </section>
 
     <!-- About -->
     <section class="section" id="about">
-        <!-- Title -->
-        <div class="section-heading">
-            <h3 class="title is-2">About Me</h3>
-            <img src="assets/images/Alex pic.png" alt="Alex" id="alex">
-            <h4 class="subtitle is-5">“We always hope for the easy fix: the one simple change that will erase a problem in a stroke. But few things in life work this way. Instead, success requires making a hundred small steps go right - one after the other, no slipups, no goofs, everyone pitching in.”
-                ― Atul Gawande</h4>
-            <div class="container">
-                <p>Full Stack Web Develope​r with a ​background in sales and customer service providing 
-                    strong problem-solving skills with a keen eye for details and UI demonstration. ​The ability to participate and work on a diverse team while solving problems in high-stress environments to reach our  goal. An expressive individual who has a desire to create applications that will be able to assist a company or individuals to make their lives easier. I bring technical skills and attention to detail to help grow the organization and become a valuable asset to the team.
-                </p>
-            </div>
+      <!-- Title -->
+      <div class="section-heading">
+        <h3 class="title is-2">About Me</h3>
+        <img src="assets/images/Alex pic.png" alt="Alex" id="alex" />
+        <h4 class="subtitle is-5">
+          “We always hope for the easy fix: the one simple change that will
+          erase a problem in a stroke. But few things in life work this way.
+          Instead, success requires making a hundred small steps go right - one
+          after the other, no slipups, no goofs, everyone pitching in.” ― Atul
+          Gawande
+        </h4>
+        <div class="container">
+          <p>
+            Full Stack Web Develope​r with a ​background in sales and customer
+            service providing strong problem-solving skills with a keen eye for
+            details and UI demonstration. ​The ability to participate and work
+            on a diverse team while solving problems in high-stress environments
+            to reach our goal. An expressive individual who has a desire to
+            create applications that will be able to assist a company or
+            individuals to make their lives easier. I bring technical skills and
+            attention to detail to help grow the organization and become a
+            valuable asset to the team.
+          </p>
         </div>
+      </div>
 
-        <div class="columns has-same-height is-gapless">
-            <div class="column">
-                <!-- Profile -->
-                <div class="card">
-                    <div class="card-content">
-                        <h3 class="title is-6">Profile</h3>
+      <div class="columns has-same-height is-gapless">
+        <div class="column">
+          <!-- Profile -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="title is-6">Profile</h3>
 
-                        <div class="content">
-                            <table class="table-profile">
-                                <tr>
-                                    <th colspan="1"></th>
-                                    <th colspan="2"></th>
-                                </tr>
-                                <tr>
-                                    <td>Address:</td>
-                                    <td>Gastonia, NC</td>
-                                </tr>
-                                <tr>
-                                    <td>Phone:</td>
-                                    <td>980-233-0280</td>
-                                </tr>
-                                <tr>
-                                    <td>Email:</td>
-                                    <td>alexg97343@gmail.com</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <br>
-                        <div class="buttons is-centered">
-                            <a href="https://github.com/AlexPR704" class="button is-link" style="background-color: black;">Github</a>
-                            <a href="https://www.linkedin.com/in/alexander-garcia-pr704/" class="button is-link" style="background-color: black;">LinkedIn</a>
-                        </div>
-                    </div>
-                </div>
+              <div class="content">
+                <table class="table-profile">
+                  <tr>
+                    <th colspan="1"></th>
+                    <th colspan="2"></th>
+                  </tr>
+                  <tr>
+                    <td>Address:</td>
+                    <td>Gastonia, NC</td>
+                  </tr>
+                  <tr>
+                    <td>Phone:</td>
+                    <td>980-233-0280</td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td>alexg97343@gmail.com</td>
+                  </tr>
+                </table>
+              </div>
+              <br />
+              <div class="buttons is-centered">
+                <a
+                  href="https://github.com/AlexPR704"
+                  class="button is-link"
+                  style="background-color: black"
+                  >Github</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/alexander-garcia-pr704/"
+                  class="button is-link"
+                  style="background-color: black"
+                  >LinkedIn</a
+                >
+              </div>
             </div>
-            <div class="column">
-                <!-- Skills -->
-                <div class="card">
-                    <div class="card-content skills-content">
-                        <h3 class="title is-6">Skills</h3>
-                        <div class="content">
-
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <strong>JavaScript:</strong>
-                                            <br>
-                                            <progress class="progress is-medium is-black" value="40" max="100"></progress>
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <strong>Node.js:</strong>
-                                            <br>
-                                            <progress class="progress is-medium is-black" value="40" max="100"></progress>
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <img src="assets/images/html.png" alt="Alex" id="html">
-                                            <br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="media">
-                                <div class="media-content">
-                                    <div class="content">
-                                        <p>
-                                            <strong>Databases</strong>
-                                            <br>
-                                            <progress class="progress is-medium is-black" value="40" max="100"></progress>
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="column">
+          <!-- Skills -->
+          <div class="card">
+            <div class="card-content skills-content">
+              <h3 class="title is-6">Skills</h3>
+              <div class="content">
+                <article class="media">
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <img
+                          src="assets/images/javascript.png"
+                          alt="javascript"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/mongo.jpeg"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/api.png"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/css.png"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <br />
+                        <img
+                          src="assets/images/express.png"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/github.png"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/node.png"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/react.png"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <img
+                          src="assets/images/sql.jpeg"
+                          alt="mongo"
+                          id="html"
+                        />
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Services -->
     <section class="section" id="services">
-        <div class="section-heading">
-            <h3 class="title is-2">Services</h3>
-            <h4 class="subtitle is-5">What can I do for you?</h4>
-        </div>
-        <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="box">
-                        <div class="content">
-                            <h4 class="title is-5">Front End Web Development</h4>
-                            Develop Front End using latest standards with HTML5/CSS3 with added funtionality using
-                            JavaScript.
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="box">
-                        <div class="content">
-                            <h4 class="title is-5">Back End Web Development</h4>
-                            Develop Back End application/service using Node.js and SQL server or Mongo DB
-                            databases.
-                        </div>
-                    </div>
-                </div>
+      <div class="section-heading">
+        <h3 class="title is-2">Services</h3>
+        <h4 class="subtitle is-5">What can I do for you?</h4>
+      </div>
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Front End Web Development</h4>
+                Develop Front End using latest standards with HTML5/CSS3 with
+                added funtionality using JavaScript.
+              </div>
             </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Back End Web Development</h4>
+                Develop Back End application/service using Node.js and SQL
+                server or Mongo DB databases.
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Resume -->
     <section class="section" id="resume">
-        <div class="section-heading">
-            <h3 class="title is-2">Resume</h3>
-            <h4 class="subtitle is-5">More about my past</h4>
-            <a href="assets/images/Alexander Garcia Resume.pdf" class="button is-link is-medium" style="background-color: black;">
-                <span class="icon">
-                    <i class="fas fa-file-alt"></i>
-                </span>
-                <span>Download My Resume</span>
-            </a>
-        </div>
+      <div class="section-heading">
+        <h3 class="title is-2">Resume</h3>
+        <h4 class="subtitle is-5">More about my past</h4>
+        <a
+          href="assets/images/Alexander Garcia Resume.pdf"
+          class="button is-link is-medium"
+          style="background-color: black"
+        >
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Download My Resume</span>
+        </a>
+      </div>
     </section>
 
     <!-- Portfolio -->
     <section class="section" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h3 class="title is-2">Portfolio</h3>
-                <h4 class="subtitle is-5">My latest works</h4>
-            </div>
-            <br>
-
-            <div class="container portfolio-container">
-                <div class="columns">
-                    <div class="column is-4">
-                        <!-- Password -->
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">
-                                    <span>Random Password Generator</span>
-                                </p>
-                            </header>
-                            <div class="card-content">
-                                <figure class="image">
-                                    <img src="assets/images/password.png" alt="Password screenshot">
-                                </figure>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://alexpr704.github.io/password/" class="card-footer-item">Preview</a>
-                                <a href="https://github.com/AlexPR704/password.git" class="card-footer-item">Source
-                                    Code</a>
-                            </footer>
-                        </div>
-                        <!-- Work Day Scheduler -->
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">
-                                    <span>Work Day Scheduler</span>
-                                </p>
-                            </header>
-                            <div class="card-content">
-                                <figure class="image">
-                                    <img src="assets/images/image1.png" alt="Work day screenshot">
-                                </figure>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://alexpr704.github.io/scheduler/" class="card-footer-item">Preview</a>
-                                <a href="https://github.com/AlexPR704/scheduler.git" class="card-footer-item">Source
-                                    Code</a>
-                            </footer>
-                        </div>
-                    </div>
-
-                    <div class="column is-4">
-                        <!-- Drinky Bird -->
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">
-                                    <span>Drinky Bird Project</span>
-                                </p>
-                            </header>
-                            <div class="card-content">
-                                <figure class="image">
-                                    <img src="assets/images/drinkybirdtextupdate.png"
-                                        alt="Drinky bird project screenshot">
-                                </figure>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://argent-t.github.io/Drinky-Bird/" class="card-footer-item">Preview</a>
-                                <a href="https://github.com/Argent-T/Project-1" class="card-footer-item">Source
-                                    Code</a>
-                            </footer>
-                        </div>
-                        <!-- WeatherApp -->
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">
-                                    <span>Weather App</span>
-                                </p>
-                            </header>
-                            <div class="card-content">
-                                <figure class="image">
-                                    <img src="assets/images/searches.png" alt="Weather App screenshot">
-                                </figure>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://alexpr704.github.io/weatherApp/" class="card-footer-item">Preview</a>
-                                <a href="https://github.com/AlexPR704/weatherApp/" class="card-footer-item">Source
-                                    Code</a>
-                            </footer>
-                        </div>
-                    </div>
-
-                    <div class="column is-4">
-                        <!-- Burger App -->
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">
-                                    <span>Eat-Da-Burger</span>
-                                </p>
-                            </header>
-                            <div class="card-content">
-                                <figure class="image">
-                                    <img src="assets/images/burger.png" alt="Burger App screenshot">
-                                </figure>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://mysterious-temple-94788.herokuapp.com/"
-                                    class="card-footer-item">Preview</a>
-                                <a href="https://alexpr704.github.io/Eat-Da-Burger/" class="card-footer-item">Source
-                                    Code</a>
-                            </footer>
-                        </div>
-                        <!-- Nutrition Journal -->
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">
-                                    <span>Nutrition Journal</span>
-                                </p>
-                            </header>
-                            <div class="card-content">
-                                <figure class="image">
-                                    <img src="assets/images/project2.png" alt="Cover template screenshot">
-                                </figure>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://salty-ravine-80275.herokuapp.com/" class="card-footer-item">Preview</a>
-                                <a href="https://github.com/Sharonyel/project2" class="card-footer-item">Source
-                                    Code</a>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Portfolio</h3>
+          <h4 class="subtitle is-5">My latest works</h4>
         </div>
+        <br />
+
+        <div class="container portfolio-container">
+          <div class="columns">
+            <div class="column is-4">
+              <!-- Password -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Random Password Generator</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="assets/images/password.png"
+                      alt="Password screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://alexpr704.github.io/password/"
+                    class="card-footer-item"
+                    >Preview</a
+                  >
+                  <a
+                    href="https://github.com/AlexPR704/password.git"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+              <!-- Work Day Scheduler -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Work Day Scheduler</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="assets/images/image1.png"
+                      alt="Work day screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://alexpr704.github.io/scheduler/"
+                    class="card-footer-item"
+                    >Preview</a
+                  >
+                  <a
+                    href="https://github.com/AlexPR704/scheduler.git"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+
+            <div class="column is-4">
+              <!-- Drinky Bird -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Drinky Bird Project</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="assets/images/drinkybirdtextupdate.png"
+                      alt="Drinky bird project screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://argent-t.github.io/Drinky-Bird/"
+                    class="card-footer-item"
+                    >Preview</a
+                  >
+                  <a
+                    href="https://github.com/Argent-T/Project-1"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+              <!-- WeatherApp -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Weather App</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="assets/images/searches.png"
+                      alt="Weather App screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://alexpr704.github.io/weatherApp/"
+                    class="card-footer-item"
+                    >Preview</a
+                  >
+                  <a
+                    href="https://github.com/AlexPR704/weatherApp/"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+
+            <div class="column is-4">
+              <!-- Burger App -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Eat-Da-Burger</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="assets/images/burger.png"
+                      alt="Burger App screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://mysterious-temple-94788.herokuapp.com/"
+                    class="card-footer-item"
+                    >Preview</a
+                  >
+                  <a
+                    href="https://alexpr704.github.io/Eat-Da-Burger/"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+              <!-- Nutrition Journal -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Nutrition Journal</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="assets/images/project2.png"
+                      alt="Cover template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://salty-ravine-80275.herokuapp.com/"
+                    class="card-footer-item"
+                    >Preview</a
+                  >
+                  <a
+                    href="https://github.com/Sharonyel/project2"
+                    class="card-footer-item"
+                    >Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
     <section class="section" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h3 class="title is-2">Contact</h3>
-                <h4 class="subtitle is-5">Get in touch</h4>
-            </div>
-            <br>
-
-            <div class="columns">
-                <div class="column is-6 is-offset-3">
-                    <form class="box"  action="https://formspree.io/xzbgpyaw" method="POST">
-                        <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control">
-                                <input class="input" type="text" placeholder="Text input">
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control has-icons-left">
-                                <input class="input" type="email" name="_replyto" placeholder="Email input" value="">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control">
-                                <textarea class="textarea" placeholder="Textarea" name="message"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="field is-grouped has-text-centered">
-                            <div class="control">
-                                <button type="submit" class="button is-link is-large" style="background-color: black;"><span class="icon">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                    <span>Submit</span></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Contact</h3>
+          <h4 class="subtitle is-5">Get in touch</h4>
         </div>
+        <br />
+
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <form
+              class="box"
+              action="https://formspree.io/xzbgpyaw"
+              method="POST"
+            >
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Text input" />
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left">
+                  <input
+                    class="input"
+                    type="email"
+                    name="_replyto"
+                    placeholder="Email input"
+                    value=""
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea
+                    class="textarea"
+                    placeholder="Textarea"
+                    name="message"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="field is-grouped has-text-centered">
+                <div class="control">
+                  <button
+                    type="submit"
+                    class="button is-link is-large"
+                    style="background-color: black"
+                  >
+                    <span class="icon">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>Submit</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="section-heading">
-            <p>
-                Alexander Garcia. The source code is licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-            </p>
-        </div>
+      <div class="section-heading">
+        <p>
+          Alexander Garcia. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        </p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
